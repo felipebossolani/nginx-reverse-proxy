@@ -59,4 +59,4 @@ Para visualizar o resultado
 ## Agradecimentos
 Luiz Carlos Farias (Gago) - [Site](https://gago.io/), [Github](https://github.com/luizcarlosfaria)
 
-Tudo que ele tem feito para a comunidada, todos seus vídeos e ajuda de forma totalmente gratuíta.
+Por tudo que ele tem feito para a comunidade, todos seus vídeos de docker e sua ajuda de forma no telegram e em outros canais de forma totalmente gratuíta.
