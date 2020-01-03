@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
 WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
@@ -20,4 +20,4 @@ COPY --from=publish /app/publish .
 
 ENV ASPNETCORE_URLS http://*:5000
 EXPOSE 5000
-ENTRYPOINT ["dotnet", "app/app.dll", "--server.urls", "http://*:5000"]
+ENTRYPOINT ["dotnet", "/app/app.dll", "--server.urls", "http://*:5000"]
