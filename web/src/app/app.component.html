@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    NGINX PROXY REVERSO!
+  </h1>
+
+<h2>Lista de Temperaturas: </h2>
+<ul>
+  <li *ngFor="let weather of weathers">
+    <h3>Data {{ weather.date | date }}</h3>
+    <h4>Em Celsius: {{ weather.temperatureC }}</h4>
+    <h4>Em Firenight: {{ weather.temperatureF }}</h4>
+    <h5>Situação: {{ weather.summary }}</h5>
+    <hr/>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
