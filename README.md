@@ -60,3 +60,5 @@ Para visualizar o resultado
 Luiz Carlos Farias (Gago) - [Site](https://gago.io/), [Github](https://github.com/luizcarlosfaria)
 
 Por tudo que ele tem feito para a comunidade, todos seus vídeos de docker e sua ajuda de forma no telegram e em outros canais de forma totalmente gratuíta.
+
+Projeto desenvolvido para aprendizado e uso na MeuPortfolio.
